@@ -21,7 +21,6 @@ let didPass = average >= passingGrade;
 
 if (didPass) {
     console.log(`${studentFirstName} ${studentLastName} passed.`);
-} 
-else {
+} else {
     console.log(`${studentFirstName} ${studentLastName} did not pass.`);
 }
