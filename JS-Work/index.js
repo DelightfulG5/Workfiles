@@ -5,9 +5,10 @@ let grade2 = 96;
 let grade3 = 65;
 let grade4 = 74;
 let passingGrade = 80;
-//1.Create a variable called average that computes for the average from grade1 to grade4
 
+//1.Create a variable called average that computes for the average from grade1 to grade4
 let average = (grade1 + grade2 + grade3 + grade4) / 4;
+
 //2. Change the value of studentLastName to "Newman" 
 studentLastName = "Newman";
 
@@ -19,8 +20,8 @@ console.log('${studentFirstName} ${studentLastName} has an average grade of ${av
 let didPass = average >= passingGrade;
 
 if (didPass) {
-    console.log('${studentFirstName} ${studentLastName} passed.')
+    console.log('${studentFirstName} ${studentLastName} passed.');
 } 
 else {
-    console.log('${studentFirstName} ${studentLastName} did not pass.')
+    console.log('${studentFirstName} ${studentLastName} did not pass.');
 }
